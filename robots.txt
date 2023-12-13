@@ -1,0 +1,42 @@
+User-agent: *
+Disallow: /compare/
+Disallow: /checkout/
+Disallow: /wishlist/
+Disallow: /cart/
+
+User-agent: Googlebot
+Allow: /  # Allow Googlebot to crawl everything
+
+User-agent: Bingbot
+Allow: /  # Allow Bingbot to crawl everything
+
+User-agent: Facebookbot
+Allow: /  # Allow Facebook's crawler to crawl everything
+
+User-agent: Twitterbot
+Allow: /  # Allow Twitter's crawler to crawl everything
+
+User-agent: LinkedInbot
+Allow: /  # Allow LinkedIn's crawler to crawl everything
+
+User-agent: Slurp
+Allow: /  # Allow Yahoo's Slurp crawler to crawl everything
+
+User-agent: DuckDuckBot
+Allow: /  # Allow DuckDuckGo's crawler to crawl everything
+
+User-agent: Baiduspider
+Allow: /  # Allow Baidu's crawler to crawl everything
+
+User-agent: Yandex
+Allow: /  # Allow Yandex's crawler to crawl everything
+
+# JavaScript-capable bots
+User-agent: Googlebot
+Allow: *.js
+
+User-agent: Bingbot
+Allow: *.js
+
+User-agent: Yandex
+Allow: *.js
